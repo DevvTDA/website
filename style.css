@@ -7,7 +7,7 @@ body {
   }
   
   a {
-    color: #000000;;
+    color: #000000;
     text-decoration:none;
   }
   
@@ -103,7 +103,6 @@ body {
   .left-pages a, .right-pages a {
     margin-right: 10px; /* Ruimte tussen de pagina links/rechts */
     text-decoration: none;
-    color: #your-link-color;
   }
 
   .logo {
@@ -123,13 +122,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin: 20px 100px 20px 100px;
   }
 
   .flex-item {
     flex: 1;
-    min-width: 100px;
-    height: 100px;
-    background-color: #f5b657;
+    width: 0%;
+    height: 300px;
+    background-color: #f5b65796;
     color: #fff;
     display: flex;
     justify-content: center;
