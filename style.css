@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: rgb(253, 135, 62) 68, 68);
   }
   
   a {
@@ -114,6 +114,28 @@ body {
     max-width: 100px; /* Pas aan afhankelijk van de grootte van je logo */
   }
   
+  /*--------------------------------------------------------------
+  # Flexbox
+  --------------------------------------------------------------*/
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .flex-item {
+    flex: 1;
+    min-width: 100px;
+    height: 100px;
+    background-color: #f5b657;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
